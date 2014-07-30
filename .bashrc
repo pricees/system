@@ -20,6 +20,7 @@ fi
 alias l='ls -G'
 alias ls='ls -G'
 alias ll='ls -laG'
+alias gap='git add --patch'
 
 # homebrew htop requires sudo or setuid
 alias htop='sudo htop'
