@@ -16,5 +16,19 @@ The _full list_ does a thorough history following file renames, etc.
 
 ```sh
 $ git-most.sh                # quick list
+SYNTAX:
+$ git-most.sh # quick list
+$ git-most.sh full # full list
+
+5735 
+373 db/schema.rb
+362 app/models/foo.rb
+252 config/routes.rb
+244 app/models/bar.rb
+240 app/models/baz.rb
+ ...
+150 Gemfile
+ ...
+
 $ git-most.sh full           # full list
 ```
